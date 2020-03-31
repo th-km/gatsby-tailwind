@@ -5,8 +5,8 @@ export default () => {
   return (
     <main className="container mx-auto">
       <div className="flex items-center justify-center h-screen">
-        <Button className="mr-4 btn btn--primary">Click me</Button>
-        <Button className="btn btn--muted">Click me</Button>
+        <Button className="mr-4">Click me</Button>
+        <Button variant="muted">Click me</Button>
       </div>
     </main>
   )
