@@ -1,3 +1,15 @@
 import React from "react"
+import Button from "../components/button"
 
-export default () => <div>Hello world!</div>
+export default () => {
+  return (
+    <main className="container mx-auto">
+      <div className="flex items-center justify-center h-screen">
+        <Button variant="default" className="mr-4">
+          Click me
+        </Button>
+        <Button variant="muted">Click me</Button>
+      </div>
+    </main>
+  )
+}
