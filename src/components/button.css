@@ -1,0 +1,19 @@
+.btn {
+  @apply px-3 py-2 text-base text-white rounded-md;
+}
+
+.btn--primary {
+  @apply bg-blue-500;
+}
+
+.btn--primary:hover {
+  @apply bg-blue-600;
+}
+
+.btn--muted {
+  @apply bg-gray-500;
+}
+
+.btn--muted:hover {
+  @apply bg-gray-600;
+}
