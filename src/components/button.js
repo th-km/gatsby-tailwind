@@ -1,9 +1,11 @@
 import React from "react"
 
-const BASE = "px-3 py-2 text-md rounded-md text-white"
+const BASE =
+  "px-3 py-2 text-base text-white bg-gray-500 rounded-md hover:bg-gray-600"
+
 const VARIANTS = {
-  default: "bg-blue-500 hover:bg-blue-600",
-  muted: "bg-gray-500 hover:bg-gray-600",
+  primary: "bg-blue-500 hover:bg-blue-600",
+  secondary: "bg-green-500 hover:bg-green-600",
 }
 
 const Button = ({ children, variant, className = "" }) => {
