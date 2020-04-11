@@ -1,5 +1,9 @@
 .btn {
-  @apply px-3 py-2 text-base text-white rounded-md;
+  @apply px-3 py-2 text-base text-white bg-gray-500 rounded-md;
+}
+
+.btn:hover {
+  @apply bg-gray-600;
 }
 
 .btn--primary {
@@ -10,10 +14,10 @@
   @apply bg-blue-600;
 }
 
-.btn--muted {
-  @apply bg-gray-500;
+.btn--secondary {
+  @apply bg-green-500;
 }
 
-.btn--muted:hover {
-  @apply bg-gray-600;
+.btn--secondary:hover {
+  @apply bg-green-600;
 }

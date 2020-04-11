@@ -1,14 +1,9 @@
-import PropTypes from "prop-types"
 import React from "react"
+import PropTypes from "prop-types"
 import "./button.css"
 
-const Button = ({
-  className = "",
-  variant = "primary",
-  children,
-  ...props
-}) => {
-  const variantName = variant ? `btn--${variant}` : ""
+const Button = ({ className = "", variant = "", children, ...props }) => {
+  const variantName = variant && `btn--${variant}`
 
   return (
     <button {...props} className={`btn ${variantName} ${className}`}>
